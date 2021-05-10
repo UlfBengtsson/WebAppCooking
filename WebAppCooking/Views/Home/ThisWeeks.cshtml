@@ -1,0 +1,15 @@
+﻿@model List<string>
+@{
+    ViewData["Title"] = "This Weeks lunsh";
+}
+
+<h1>This Week we are serving</h1>
+
+<hr />
+
+@foreach (var item in Model)
+{
+    <h4>@item</h4>
+}
+
+<span>*View tries to show the information the best it can*</span>

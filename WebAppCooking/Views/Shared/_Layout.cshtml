@@ -1,0 +1,29 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a asp-action="ThisWeeks" asp-controller="Home" >This weeks lunsh</a></li>
+            <li><a href="#">content 2</a></li>
+            <li><a href="#">content 3</a></li>
+        </ul>
+    </nav>
+
+    <hr />
+
+    <div>
+        @RenderBody()
+    </div>
+
+    <hr />
+
+    <footer>
+        <p>Made by me!</p>
+    </footer>
+</body>
+</html>
